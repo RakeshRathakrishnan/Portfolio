@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Junior Front End Developer</p>
+            <h1>Hi, I'm <span>Rakesh</span><br>Rathakrishnan </h1>
+
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I am a committed Front-End Developer poised at the intersection of technology and creativity, with expertise in HTML, CSS, JavaScript, React, Vue, alongside a passion for graphic design, UI/UX, and video editing.  I'm actively seeking opportunities to immerse myself in diverse projects, aiming to contribute my unique blend of skills and perspectives while continuously advancing my understanding and experience in this ever-evolving domain.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        <li><span>Digital Art and Animations </span><br>Automation & Photoshop</li>
+                        <li><span> Programming Languages  </span><br></li>React<br>HTML/CSS/JavaScript<br>Vue<br>SLDC <br>NodeJs<br>Linux
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - 2023</span><br>Junior Developer - Analai Express Inc.</li>
+                        <li><span>2022 - 2024</span><br>Information Technician Intern - Weston Logisitcs Ltd </li>
+                        <li><span>2023 - Current</span><br>Co - Founder of Serenity Events </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - Current</span><br>Bachelor of Information Technology<br>Carleton University</li>
+                        <li><span>2022 - Current</span><br>Information Technician Advanced Diploma<br>Algonquin College </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Expert web design: Harnessing HTML, CSS, and JavaScript for captivating, user-centric digital experiences. Let's elevate your online presence</p>
+                
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p> Crafting intuitive interfaces with creativity and precision. Elevate user experiences for maximum engagement and impact</p>
+                
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>API-driven development for iOS and Android: Leveraging diverse coding languages to create dynamic, cross-platform experiences. Elevate your app's functionality and reach</p>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Weatherify </h3>
+                    <p>Introducing Weatherify! Our sleek web app harnesses HTML, CSS, and JavaScript to provide instant, interactive weather updates. By leveraging APIs, Weatherify delivers real-time data for any city, including temperature, humidity, and wind speed. Elevate your weather tracking today with Weatherify!</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Crpyto Count</h3>
+                    <p>Discover Crypto Count – connecting you to global talent. UI/UX design meets crypto collection, all in one wallet.<br> App in development.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Password Manager</h3>
+                    <p>Python-run password manager: Utilizing Python's power to safeguard your digital identity. Seamlessly manage and secure your passwords with ease </p>
+                    <a href="file:///C:/Users/rakir/OneDrive/Desktop/Password%20Manager"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/S1.jpg">
+                <div class="layer">
+                    <h3>Serenity Events Posters </h3>
+                    <p>As the co-owner of our events page, I excel in creating visually striking posters through Photoshop and expert photo editing. Elevate your event promotions with my creative touch.</p>
+                    <a href="file:///C:/Users/rakir/OneDrive/Desktop/Password%20Manager"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/S2.jpg">
+                <div class="layer">
+                    <h3>Serenity Events Posters - DJ Kavs </h3>
+                    <p>As the co-owner of our events page, I excel in creating visually striking posters through Photoshop and expert photo editing. Elevate your event promotions with my creative touch.</p>
+                    <a href="file:///C:/Users/rakir/OneDrive/Desktop/Password%20Manager"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/S3.jpg">
+                <div class="layer">
+                    <h3>Serenity Events Posters - Flash Sale </h3>
+                    <p>As the co-owner of our events page, I excel in creating visually striking posters through Photoshop and expert photo editing. Elevate your event promotions with my creative touch.</p>
+                    <a href="file:///C:/Users/rakir/OneDrive/Desktop/Password%20Manager"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/S4.jpg">
+                <div class="layer">
+                    <h3>Serenity Events Posters -Media Team </h3>
+                    <p>As the co-owner of our events page, I excel in creating visually striking posters through Photoshop and expert photo editing. Elevate your event promotions with my creative touch. </p>
+                    <a href="file:///C:/Users/rakir/OneDrive/Desktop/Password%20Manager"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/S5.jpg">
+                <div class="layer">
+                    <h3>Serenity Events Posters - Mc Sajeth </h3>
+                    <p>As the co-owner of our events page, I excel in creating visually striking posters through Photoshop and expert photo editing. Elevate your event promotions with my creative touch. </p>
+                    <a href="file:///C:/Users/rakir/OneDrive/Desktop/Password%20Manager"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/S6.jpg">
+                <div class="layer">
+                    <h3>Serenity Events Posters - Varagan </h3>
+                    <p>As the co-owner of our events page, I excel in creating visually striking posters through Photoshop and expert photo editing. Elevate your event promotions with my creative touch.</p>
+                    <a href="file:///C:/Users/rakir/OneDrive/Desktop/Password%20Manager"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/S7.jpg">
+                <div class="layer">
+                    <h3>Serenity Events Posters - York Huskies </h3>
+                    <p>As the co-owner of our events page, I excel in creating visually striking posters through Photoshop and expert photo editing. Elevate your event promotions with my creative touch.</p>
+                    <a href="file:///C:/Users/rakir/OneDrive/Desktop/Password%20Manager"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/S8.jpg">
+                <div class="layer">
+                    <h3>Serenity Events Posters - Tier 1 Sales </h3>
+                    <p>As the co-owner of our events page, I excel in creating visually striking posters through Photoshop and expert photo editing. Elevate your event promotions with my creative touch.</p>
+                    <a href="file:///C:/Users/rakir/OneDrive/Desktop/Password%20Manager"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
